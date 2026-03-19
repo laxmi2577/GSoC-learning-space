@@ -1,4 +1,4 @@
-# Mesa-LLM: Generative Agent Prototype & Learning Space
+# Mesa LLM Production Ready Generative Agents
 
 This repository serves as my technical sandbox and proof-of-work for the Google Summer of Code 2026 project: **Mesa-LLM (Production-Ready Generative Agents)**.
 
