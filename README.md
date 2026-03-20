@@ -1,5 +1,7 @@
 # Mesa LLM Production Ready Generative Agents
 
+📄 **[Read my GSoC Motivation & Professional Background here](motivation.md)**
+
 This repository serves as my technical sandbox and proof-of-work for the Google Summer of Code 2026 project: **Mesa-LLM (Production-Ready Generative Agents)**.
 
 My objective is to bridge the gap between Large Language Models (generative text) and Mesa's Agent-Based Modeling framework (deterministic Python) without succumbing to token-limit exhaustion, sequential bottlenecks, or brittle regex parsing failures.
@@ -104,12 +106,6 @@ GOOGLE_API_KEY=your_api_key_here
 Laxmiranjan Sahu | AI/ML Intern | Generative AI Professional (Oracle Certified)
 
 Focusing heavily on Python development, async API optimization, and agentic workflows.
-
-Push this file to your main branch (`git add README.md`, `git commit -m "Added architectural README with Mermaid system diagram"`, `git push origin main`). 
-
-Once it is pushed, refresh your GitHub repository page in your browser. You will see that code block magically render into a professional system design diagram right in the middle of your page.
-
-Tell me when that is live, and we execute the final Matrix chat maneuver.
 
 ## 🔗 Connect with Me
 
