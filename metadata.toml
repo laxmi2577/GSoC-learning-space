@@ -1,0 +1,35 @@
+[work]
+title = "Mesa-LLM Generative Agents Prototype"
+abstract = """
+A fully unified, 10-phase neuro-symbolic multi-agent system. 
+Bridges Large Language Models (Gemini 2.5 Flash) with Mesa's deterministic 
+Agent-Based Modeling framework using strict JSON parsing, RAG memory, 
+and asynchronous API routing.
+"""
+
+[work.authorship]
+creators = ["Laxmiranjan Sahu"]
+
+[work.classification]
+domain = ["artificial intelligence", "complex systems", "agent-based modeling"]
+keywords = [
+  "LLM",
+  "generative agents",
+  "RAG",
+  "asyncio",
+  "tool calling",
+  "token economics"
+]
+
+[manifestation]
+complexity = "advanced"
+framework = "Mesa"
+status = "incubator"
+
+[manifestation.dependencies]
+dependencies = [
+  "mesa>=3.0.0",
+  "google-generativeai",
+  "nest-asyncio",
+  "python-dotenv"
+]
