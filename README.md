@@ -111,7 +111,7 @@ GOOGLE_API_KEY=your_api_key_here
 These results demonstrate that the system achieves both **cost-efficiency** and **low-latency performance**, validating its feasibility for scalable real-world multi-agent simulations.
 
 
-## 👨‍💻 About the Author
+## About the Author
 
 Laxmiranjan Sahu | AI/ML Intern | Generative AI Professional (Oracle Certified)
 
