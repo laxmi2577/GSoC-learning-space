@@ -4,7 +4,6 @@
 
 This repository serves as my technical sandbox and proof-of-work for the Google Summer of Code 2026 project: **Mesa-LLM (Production-Ready Generative Agents)**.
 
-<<<<<<< HEAD
 ## Abstract
 My objective is to bridge the gap between Large Language Models (generative text) and Mesa's Agent-Based Modeling framework (deterministic Python) without succumbing to token-limit exhaustion, sequential bottlenecks, or brittle regex parsing failures.
 
@@ -22,25 +21,6 @@ This project was built iteratively, escalating from basic API calls to a fully u
 * **Phase 9: Native RAG Memory:** Replaced append-only memory with a Retrieval-Augmented Generation system. Agents embed current situations into vectors (`gemini-embedding-001`) and use Cosine Similarity math to extract only the most relevant historical memories.
 * **Phase 10: The Grand Unification:** A singular, end-to-end Mesa simulation where spatial awareness, asynchronous execution, tool calling, RAG memory, and token economics run concurrently without crashing the scheduler.
 
-=======
-My objective is to bridge the gap between Large Language Models (generative text) and Mesa's Agent-Based Modeling framework (deterministic Python) without succumbing to token-limit exhaustion, sequential bottlenecks, or brittle regex parsing failures.
-
-## 🏗️ Architecture Evolution (The 10-Phase Sprint)
-
-This project was built iteratively, escalating from basic API calls to a fully unified, neuro-symbolic multi-agent system. 
-
-* **Phase 1 & 2: LLM Integration & Strict JSON Routing:** Replaced random number generators with Gemini 2.5 Flash. Forced the LLM to output valid JSON arrays, which are directly parsed into deterministic Mesa state changes.
-* **Phase 3: Multi-Agent Conversational Memory:** Implemented sliding-window memory arrays so agents can read conversational histories and base their actions on prior steps without blowing up the context window.
-* **Phase 4: Spatial Grid Awareness:** Agents are injected with Mesa `MultiGrid` coordinates and successfully navigate `(x, y)` environments based on persona-driven goals.
-* **Phase 5: Latency Profiler:** Built an automated benchmarking tool confirming an average synchronous API round-trip latency of ~2.2 seconds per agent step.
-* **Phase 6: Token Economics Engine:** Engineered a live budget tracker that extracts hidden `usage_metadata` from the Google SDK. Benchmarks proved a standard 6-step multi-agent interaction loop costs exactly **$0.000028 USD**, demonstrating financial viability for scale.
-* **Phase 7: Native Tool Calling:** Upgraded agents from chatbots to autonomous systems using the Gemini `tools` parameter. Agents now pause text generation to natively execute local Python functions (e.g., hardware scanners) and use the returned data.
-* **Phase 8: Asynchronous Concurrency:** Rewrote the API routing using `asyncio` and `nest_asyncio`. Agents now generate thoughts in parallel, collapsing a 6.6-second sequential step down to **~2.05 seconds** total for the entire batch.
-* **Phase 9: Native RAG Memory:** Replaced append-only memory with a Retrieval-Augmented Generation system. Agents embed current situations into vectors (`gemini-embedding-001`) and use Cosine Similarity math to extract only the most relevant historical memories.
-* **Phase 10: The Grand Unification:** A singular, end-to-end Mesa simulation where spatial awareness, asynchronous execution, tool calling, RAG memory, and token economics run concurrently without crashing the scheduler.
-
-## 🧠 The Unified System Architecture (Phase 10)
->>>>>>> f8abeb2ae40cf214da82ee4b3913f6422c8118e0
 
 ```mermaid
 graph TD
@@ -101,11 +81,7 @@ response_mime_type="application/json"
 
 This guarantees that the LLM returns strict, machine-readable JSON. The framework then safely parses this JSON to execute Python-based state changes (e.g., integer wealth transfers), ensuring reliability and security.
 
-<<<<<<< HEAD
 ## How to Run 
-=======
-## ⚙️ How to Run the Environment
->>>>>>> f8abeb2ae40cf214da82ee4b3913f6422c8118e0
 
 To replicate this environment locally and see the generative agents interact across the grid:
 
@@ -125,7 +101,6 @@ GOOGLE_API_KEY=your_api_key_here
 
 ### 4. Run the Jupyter Notebooks sequentially, or jump straight to `10_End_to_End_Engine.ipynb` to see the fully unified architecture.
 
-<<<<<<< HEAD
 
 ## Results & Token Economics
 
@@ -136,10 +111,7 @@ GOOGLE_API_KEY=your_api_key_here
 These results demonstrate that the system achieves both **cost-efficiency** and **low-latency performance**, validating its feasibility for scalable real-world multi-agent simulations.
 
 
-## About the Author
-=======
 ## 👨‍💻 About the Author
->>>>>>> f8abeb2ae40cf214da82ee4b3913f6422c8118e0
 
 Laxmiranjan Sahu | AI/ML Intern | Generative AI Professional (Oracle Certified)
 
