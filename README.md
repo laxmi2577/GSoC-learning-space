@@ -2,7 +2,17 @@
 
 📄 **[Read my GSoC Motivation & Professional Background here](motivation.md)**
 
-This repository serves as my technical sandbox and proof-of-work for the Google Summer of Code 2026 project: **Mesa-LLM (Production-Ready Generative Agents)**.
+## ⚠️ Environment Setup (Important)
+
+This prototype was developed and tested using the Mesa 2.x architecture. Mesa has recently released version 3.0, which introduces breaking changes to the scheduling logic (`mesa.time`).
+
+To run these notebooks successfully without encountering `ImportError` exceptions, please install a Mesa version prior to 3.0:
+
+
+
+```bash
+pip install "mesa<3.0" google-generativeai
+```
 
 ## Abstract
 My objective is to bridge the gap between Large Language Models (generative text) and Mesa's Agent-Based Modeling framework (deterministic Python) without succumbing to token-limit exhaustion, sequential bottlenecks, or brittle regex parsing failures.
