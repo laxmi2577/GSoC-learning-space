@@ -30,6 +30,7 @@ This project was built iteratively, escalating from basic API calls to a fully u
 * **Phase 8: Asynchronous Concurrency:** Rewrote the API routing using `asyncio` and `nest_asyncio`. Agents now generate thoughts in parallel, collapsing a 6.6-second sequential step down to **~2.05 seconds** total for the entire batch.
 * **Phase 9: Native RAG Memory:** Replaced append-only memory with a Retrieval-Augmented Generation system. Agents embed current situations into vectors (`gemini-embedding-001`) and use Cosine Similarity math to extract only the most relevant historical memories.
 * **Phase 10: The Grand Unification:** A singular, end-to-end Mesa simulation where spatial awareness, asynchronous execution, tool calling, RAG memory, and token economics run concurrently without crashing the scheduler.
+*  **Phase 11: Dynamic Memory Summarization (Local Test):** Implemented an automated context-compression loop. When an agent's raw memory array exceeds token limits, the LLM compresses the history into a single, dense sentence, flushing the raw array while maintaining continuous simulation logic.
 
 
 ```mermaid
